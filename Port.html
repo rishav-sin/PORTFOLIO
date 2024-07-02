@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="Port.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link btn btn-primary btn-custom" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary btn-custom" href="#about">About</a>
+                    </li>
+                 <!--   <li class="nav-item">
+                        <a class="nav-link btn btn-primary btn-custom" href="#certificates">Portfolio</a>
+                    </li>  -->
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary btn-custom" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary btn-custom" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text text-black">
+                    <p class="hero_title text-black"><h1>Welcome To My Portfolio</h1>
+                    <p class="hero_Paragraph text-black"> <h3>Explore My Expertise and Achievements.</h3></p>
+                    <h4><p>Discover the diverse range of skills I bring to the table and explore the 
+                        projects that highlight my dedication and expertise in technology and development.</p></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="bgimage about-container">
+        <div class="container">
+            <div class="section-heading">
+                <h1 class="text-center text-black">About Me</h1>
+                <hr class="divider">
+            </div>
+            <div class="row">
+             
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text text-black">
+                    <p><h3>I'm Hrishikesh Singh, I am enthusiastic about web development, 
+                        with a strong focus on front-end development using HTML, CSS, and 
+                        JavaScript. My passion lies in creating responsive, user-centric web 
+                        applications that fulfill client requirements and deliver exceptional 
+                        user experiences.</h3></p>
+                        <br>
+                    <div style="display: flex; justify-content: center;">
+                        <div style="width: 100%;">
+                            <h2>
+                                <div style="margin-bottom: 10px;">
+                                    <i class="fas fa-user"></i> Name: Hrishikesh Singh</S>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                    <i class="fas fa-birthday-cake"></i> Age: 22
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                    <i class="fas fa-briefcase"></i> Occupation : Web Developer
+                                </div>
+                            </h2>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills section -->
+    <section id="about" class="bgimage about-container">
+        <div class="container">
+            <div class="section-heading">
+                <h1 class="text-center text-black">My Skills</h1>
+                <hr class="divider">
+            </div>
+            <div class="skill">
+                <h2>HTML</h2>
+              </div>
+          
+              <div class="skill">
+                <h2>CSS</h2>
+              </div>
+          
+              <div class="skill">
+                <h2>JavaScript</h2>
+              </div>
+          
+              <div class="skill">
+                <h2>PHP</h2>
+              </div>
+    </section>
+
+
+
+
+    <!-- Services section -->
+    <section id="services" class="bgimage">
+        <div class="container">
+            <div class="section-heading">
+                <h1 class="text-center text-black">Services</h1>
+                <hr class="divider">
+            </div>
+            <div class="row">
+                <!-- Web Development Service -->
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="card servicesCard">
+                        <div class="card-body text-center">
+                            <h1><i class="fas servicesIcon fa-code"></i></h1>
+                            <h2 class="card-title mt-3">Web Development</h2>
+                            <p class="card-text mt-3">Designed responsive and dynamic websites using the latest web technologies to ensure an optimal user experience.</p>
+                            <a href="https://www.geeksforgeeks.org/web-development" target="_blank" class="btn btn-custom btn-sm mt-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile App Development Service -->
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="card servicesCard">
+                        <div class="card-body text-center">
+                            <h1><i class="fas servicesIcon fa-mobile-alt"></i></h1>
+                            <h2 class="card-title mt-3">Mobile App Development</h2>
+                            <p class="card-text mt-3">Creating innovative and user-friendly mobile applications for iOS and Android platforms.</p>
+                            <a href="https://buildfire.com/understanding-mobile-app-development-lifecycle" target="_blank" class="btn btn-custom btn-sm mt-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Database Management Service -->
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="card servicesCard">
+                        <div class="card-body text-center">
+                            <h1><i class="fas servicesIcon fa-database"></i></h1>
+                            <h2 class="card-title mt-3">Database Management</h2>
+                            <p class="card-text mt-3">Managing and optimizing databases to ensure data integrity, security, and performance.</p>
+                            <a href="https://www.simplilearn.com/what-is-database-management-article" target="_blank" class="btn btn-custom btn-sm mt-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-section">
+            <div class="contact-card">
+                <h2>Contact Me</h2>
+                <div class="contact-info">
+                    <div class="box">
+                     <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+91-91620 45698</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>rishavsingh77841@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Electronic City phase-1, Bengaluru, Karnataka 560100</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- Social Media Icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank" class="social-link" id="facebook">
+                    <i class="fab fa-facebook"></i> <span class="social-name">Facebook</span>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="social-link" id="instagram">
+                    <i class="fab fa-instagram"></i> <span class="social-name">Instagram</span>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank" class="social-link" id="whatsapp">
+                    <i class="fab fa-whatsapp"></i> <span class="social-name">WhatsApp</span>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank" class="social-link" id="youtube">
+                    <i class="fab fa-youtube"></i> <span class="social-name">YouTube</span>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" class="social-link" id="linkedin">
+                    <i class="fab fa-linkedin"></i> <span class="social-name">LinkedIn</span>
+                </a>
+            </div>
+            <!-- Copyright and Terms -->
+            <div class="footer-text mt-4">
+                <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+                <a href="Terms of Services.html" class="footer-link">Terms of Service</a> | <a href="Privacy and policy.html" class="footer-link">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
